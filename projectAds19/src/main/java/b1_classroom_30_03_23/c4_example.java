@@ -11,10 +11,11 @@ public class c4_example {
         System.out.println("Calcula Minutos");
         
         System.out.print("Quando minutos já tem desde o início do dia?");
-        double min = input.nextDouble();
+        int min = input.nextInt();
         
-        double calcMin = min / 60;
-        System.out.print("Desde que dia iniciou já se passou: " + calcMin + " 15Horas");
+        int calcHour = min / 60;
+        int calcMin = min % 60;
+        System.out.print("Desde que dia iniciou já se passou: " + calcHour + " Horas e " + calcMin + " minutos");
     
     }
 }
