@@ -1,6 +1,6 @@
 package a1_classroom_23_03_23;
 
-public class a5_exercise_23_03_23 {
+public class a5_exercise {
     public static void main(String args[]){
         
         int squareLenght = 10;

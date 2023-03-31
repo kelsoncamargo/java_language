@@ -1,7 +1,7 @@
 
 package a1_classroom_23_03_23;
 
-public class a3_example_23_03_23 {
+public class a3_example {
     public static void main(String args[]){
         
         double a = 13.9;

@@ -1,6 +1,6 @@
 package a1_classroom_23_03_23;
 
-public class a2_example_23_03_23 {
+public class a2_example {
     public static void main(String args[]){
     
         int a = 15;
