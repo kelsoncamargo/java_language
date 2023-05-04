@@ -12,14 +12,15 @@ public class h3_exercise {
         System.out.print("Digite os pontos do segundo time número: ");
         int  y = input.nextInt();
         
-        if(!!(x == y)){
+        if(x == y){
             System.out.println("Empate!");
+        }else{
+            if(x > y){
+                System.out.println("O primeiro time ganhou!");      
+            } else{
+               System.out.println("O segundo time ganhou!");
+            }
         }
-        if(!!(x > y)){
-            System.out.println("O primeiro time ganhou!");      
-        }
-        else{
-            System.out.println("O segundo time ganhou!");
-        }
+       
     }   
 }
